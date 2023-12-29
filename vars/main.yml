@@ -1,0 +1,45 @@
+---
+# vars file for kube-tools
+  kubectl-list:
+    - version: "1.29.0"  
+      arch: amd64
+      source: https://dl.k8s.io/release/v1.29.0/bin/linux/amd64/kubectl
+    - version: "1.29.0"  
+      arch: arm64
+      source: https://dl.k8s.io/release/v1.29.0/bin/linux/arm64/kubectl
+    - version: "1.28.5"  
+      arch: amd64
+      source: https://dl.k8s.io/release/v1.28.5/bin/linux/amd64/kubectl
+    - version: "1.28.5"  
+      arch: arm64
+      source: https://dl.k8s.io/release/v1.28.5/bin/linux/arm64/kubectl
+    - version: "1.28.4"  
+      arch: amd64
+      source: https://dl.k8s.io/release/v1.28.4/bin/linux/amd64/kubectl
+    - version: "1.28.4"  
+      arch: arm64
+      source: https://dl.k8s.io/release/v1.28.4/bin/linux/arm64/kubectl
+    - version: "1.28.3"  
+      arch: amd64
+      source: https://dl.k8s.io/release/v1.28.3/bin/linux/amd64/kubectl
+    - version: "1.28.3"  
+      arch: arm64
+      source: https://dl.k8s.io/release/v1.28.3/bin/linux/arm64/kubectl
+    - version: "1.28.2"  
+      arch: amd64
+      source: https://dl.k8s.io/release/v1.28.2/bin/linux/amd64/kubectl
+    - version: "1.28.2"  
+      arch: arm64
+      source: https://dl.k8s.io/release/v1.28.2/bin/linux/arm64/kubectl
+    - version: "1.28.1"  
+      arch: amd64
+      source: https://dl.k8s.io/release/v1.28.1/bin/linux/amd64/kubectl
+    - version: "1.28.1"  
+      arch: arm64
+      source: https://dl.k8s.io/release/v1.28.1/bin/linux/arm64/kubectl
+    - version: "1.28.0"  
+      arch: amd64
+      source: https://dl.k8s.io/release/v1.28.0/bin/linux/amd64/kubectl
+    - version: "1.28.0"  
+      arch: arm64
+      source: https://dl.k8s.io/release/v1.28.0/bin/linux/arm64/kubectl

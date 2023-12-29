@@ -1,0 +1,19 @@
+---
+# tasks file for kube-tools
+- name: Create any directories for kubectl
+  file: 
+    path: "{{ item.destination }}/{{ item.version }}/{{ item.arch }}"
+    state: directory
+    mode: '0755'
+  with_items:
+    - "{{ kubectl-list }}" 
+
+- name: Pull kubectl from dl.k8s.io
+  get_url:
+    url: "{{ item.source }}"
+    dest: "{{ item.destination }}/{{ item.version }}/{{ item.arch }}"
+    owner: root
+    group: root
+    mode: 0755
+  with_items:
+    - "{{ kubectl-list }}"
